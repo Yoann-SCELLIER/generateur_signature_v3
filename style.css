@@ -1,0 +1,141 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formBorder {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.marg {
+    margin-bottom: 10px;
+}
+
+.utilisateur {
+    font-weight: bold;
+}
+
+.buttonGenerer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.buttonGenerer button:hover {
+    background-color: #0056b3;
+}
+
+#jsonPreview {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signature {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Police + texte d'écriture */
+td {
+    padding: 15px;
+    font-family: Arial;
+}
+
+/* Logo de l'agence */
+.img {
+    width: 9rem;
+}
+
+.imgView {
+    width: 9rem;
+}
+
+/* Séparation en le logo et le contenu */
+.vertical-line{
+    border-left: 1px solid #e85d1c;
+    display: inline-block;
+    height: 115px;
+}
+
+/* Nom + Prénom de l'utilisateur */
+.utilisateur {
+    color: #e85d1c;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* Poste résponsabilité dans l'agence */
+.poste {
+    color: #065f60;
+    font-family: Arial;
+    font-weight: normal;
+    margin: 8px 0px 8px 0px;
+}
+
+/* Coordonnée de l'agence */
+.coordonnee {
+    color: #e85d1c;
+    font-family: Arial;
+    font-style: italic;
+    /* text-decoration:none; */
+}
+
+/* Suppression des effets du liens */
+a {
+    text-decoration-line: none;
+    text-decoration:none;
+    color: #e85d1c;
+}
+
+/* Aération du formulaire */
+.marg {
+    margin: 10px;
+}
+
+/* Contour du formulaire */
+.formBorder {
+    border: solid 2px;
+    width: 550px;
+    padding: 10px;
+}
+
+/* Bouton copier de l'accueil */
+.js-copy {
+    background-color: rgb(255, 255, 255);
+    color: #065f60;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
+    padding: 4px;
+    border: solid 1px #e85d1c;
+}
+
+/* Bouton modification et supprimer de l'accueil */
+.buttonModifEtSupp {
+    background-color: rgb(255, 255, 255);
+    color: #065f60;
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 16px;
+    margin: 0px 20px 0px 20px;
+    padding: 4px;
+    border: solid 1px #e85d1c;
+}
+
+/* Bouton dans les formulaire (ajout + modif) */
+.buttonGenerer{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: #e85d1c;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 20px;
+}
